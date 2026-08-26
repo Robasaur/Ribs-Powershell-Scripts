@@ -1,0 +1,5 @@
+powershell.exe -ExecutionPolicy Bypass -NoProfile -File ".\InstallDotNet8SDK.ps1"
+powershell.exe -ExecutionPolicy Bypass -NoProfile -File ".\UninstallDotNet8SDK.ps1"
+
+detection upload directly via UI
+DetectDotNet8SDK.ps1
